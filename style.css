@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+div {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+  text-align: center;
+  line-height:  10;
+  margin: auto;
+  /* tested until font got small */
+  font-size: 1.3rem;
+  color:wheat;
+  border-radius: 20px;
+  border:  1px solid blue; 
+  background: -o-linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+
+  box-shadow: inset 2px 2px 3px rgb(255, 255, 255),
+  inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px rgba(0, 0, 0, 0);
+}
